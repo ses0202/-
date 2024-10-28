@@ -1,0 +1,8 @@
+<VirtualHost *:80>
+    ServerName shoqan.economics.society
+    DocumentRoot /var/www/shoqan.economics.society
+    <Directory /var/www/shoqan.economics.society>
+        AllowOverride All
+        Require all granted
+    </Directory>
+</VirtualHost>
